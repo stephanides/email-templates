@@ -1,0 +1,11 @@
+<mj-section background-color="white" border-top="20px solid #EEE">
+  <mj-column>
+    <mj-image
+      align="left"
+      width="280px"
+      padding="0"
+      padding-left="20px"
+      src="https://eshop.kupelecks.sk/images/logo.png"
+    />
+  </mj-column>
+</mj-section>

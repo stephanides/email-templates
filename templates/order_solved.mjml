@@ -1,0 +1,56 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-include path="./components/attributes.mjml" />
+  </mj-head>
+  <mj-body background-color="#EEE" width="800px">
+    <mj-include path="./components/header.mjml" />
+    <mj-wrapper background-color="white" padding="0px 0px">
+      <mj-section>
+        <mj-column>
+          <mj-text>Dobrý deň.</mj-text>
+          <mj-text>
+            Za Vašu objednávku č. {{orderId}} sme už obdržali čiastku, preto Vám v prílohe zasielame elektronickú podobu faktúry. Objednávka je už vyplatená, preto táto faktúra neslúži ako príkaz na platbu. Ak máte akékoľvek otázky týkajúce sa Vašej objednávky, prosím, kontaktujte nás na info@kupelecks.sk alebo nám zavolajte na 00000.. Naša otváracia doba je 09:00 - 17:00.
+          </mj-text>
+          <mj-text
+            >Faktúra č. {{invoiceId}} k objednávke {{orderId}}</mj-text
+          >
+          <mj-text
+            >Ak máte akékoľvek otázky týkajúce sa Vašej objednávky, prosím,
+            kontaktujte nás na
+            <a href="mailto: eshop@kupelecks.sk">eshop@kupelecks.sk</a> alebo
+            telefonicky na +421 911 904 880 v čase Pondelok - Piatok: 08:00 -
+            17:00.</mj-text
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#777"
+          />
+          <mj-text
+            font-size="16px"
+            color="#777"
+            font-weight="40"
+            padding-bottom="10px"
+            align="center"
+          >
+            Ďakujeme za dôveru a tešíme sa na Váš ďalší nákup.
+          </mj-text>
+          <mj-text
+            font-size="16px"
+            color="#777"
+            font-weight="40"
+            padding-bottom="10px"
+            align="center"
+          >
+            Prajeme Vám príjemný deň.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper border-top="20px solid #EEE">
+  </mj-body>
+</mjml>

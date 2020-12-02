@@ -1,0 +1,378 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-include path="./components/attributes.mjml" />
+  </mj-head>
+  <mj-body background-color="#EEE" width="800px">
+    <mj-include path="./components/header.mjml" />
+    <mj-wrapper background-color="white" padding="0px 0px">
+      <mj-section>
+        <mj-column>
+          <mj-text>Dobrý deň.</mj-text>
+          <mj-text>
+            Ďakujeme Vám za nákup v našom e-shope Kúpele Červený Kláštor
+            Šmerdžonka a sme veľmi radi, že ste si vybrali práve nás. Tento
+            e-mail slúži ako potvrdenie, že sme Vašu objednávku prijali a
+            začíname ju spracovávať. Akonáhle bude vybavená a pripravená alebo
+            odoslaná, pošleme Vám ďalší informačný e-mail.
+          </mj-text>
+          <mj-text
+            >Ak máte akékoľvek otázky týkajúce sa Vašej objednávky, prosím,
+            kontaktujte nás na
+            <a href="mailto: eshop@kupelecks.sk">eshop@kupelecks.sk</a> alebo
+            telefonicky na +421 911 338 828 v čase Pondelok - Piatok: 08:00 -
+            17:00.</mj-text
+          >
+          <mj-text
+            >Osobný odber je možný v Kúpeľnej reštaurácii, Červený Kláštor 12,
+            059 06 Červený Kláštor alebo v Cestovnej agentúre DJK Tour,
+            Popradská 6, 064 01 Stará Ľubovňa v čase Pondelok - Piatok: 9:00 -
+            18:00, Sobota: 10:00 - 12:00.</mj-text
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column padding="0">
+          <mj-text font-size="24px" color="#777" font-weight="bold"
+            >Objednávka č.{{orderId}}</mj-text
+          >
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#777"
+          />
+          <mj-text> Objednané dňa {{date}} </mj-text>
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Predajca
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            AMICUS RELAX s.r.o.
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            Popradská 6
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            064 01, Stará Ľubovňa
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            Slovenská republika
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Fakturačná adresa
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{name}} {{surname}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{address}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{postalCode}}, {{city}}, {{state}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            Tel: {{phone}}
+          </mj-text>
+          <mj-raw>{{#if isCompany}}</mj-raw>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            Názov firmy: {{companyName}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            IČO: {{companyVatNum}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            DIČ: {{companyDVATNum}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            DIČ: {{companyDTAXNum}}
+          </mj-text>
+          <mj-raw>{{/if}}</mj-raw>
+        </mj-column>
+        <mj-column>
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Doručovacia adresa
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{name}} {{surname}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{deliveryAdress.address}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{deliveryAdress.postalCode}}, {{deliveryAdress.city}},
+            {{deliveryAdress.state}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            Tel: {{phone}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Spôsob doručenia
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{deliveryMethod}}
+          </mj-text>
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Spôsob platby
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            {{paymentMethod}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>{{#if isBankovyPrevod}}</mj-raw>
+      <mj-section padding-top="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Bankové údaje pre platbu
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            <strong>Suma: </strong>{{totalPrice}} €
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            <strong>Číslo účtu: </strong> 4309858257 / 0200
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            <strong>IBAN: </strong> SK8102000000004309858257
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            <strong>Variabilný symbol: </strong> {{orderId}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Tovar bude odoslaný obratom podľa dodacích podmienok po zaevidovaní
+            Vašej platby na náš účet.
+            <strong
+              >Pokiaľ objednávku uhrádzate príkazom, tovar expedujeme po
+              zaevidovaní platby, takže dodacia lehota sa môže predĺžiť aj na 5
+              pracovných dní.</strong
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>{{/if}}</mj-raw>
+      <mj-section padding-top="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Dodacia lehota
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="0px">
+            Balíky odosielame do 48 hodín od prijatia platby. Naši zazmluvnení
+            prepravcovia garantujú dodanie vašej objednávky už na druhý deň.
+            Balíky expedujeme v najbližšom možnom termíne a následne je v
+            kompetencii prepravnej spoločnosti, v akom termíne balík doručí
+            vzhľadom k vyťaženosti.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Súhrn objednávky
+          </mj-text>
+
+          <mj-raw>{{#each products as |item index|}}</mj-raw>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            {{item.title}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Variant: {{item.variant.title}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Počet: {{item.variant.count}} ks
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Cena ks: {{item.price}} €
+          </mj-text>
+          <mj-divider border-width="1px" border-color="lightgrey" />
+          <mj-raw>{{/each}}</mj-raw>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-raw>{{#each giftCards as |item index|}}</mj-raw>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Darčeková poukážka
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Cena: {{item.price}} €
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Venovanie: {{item.text}}
+          </mj-text>
+          <mj-raw>{{#each services as |item index|}}</mj-raw>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Služba: {{item.title}}
+          </mj-text>
+          <mj-raw>{{/each}}</mj-raw>
+          <mj-divider border-width="1px" border-color="lightgrey" />
+          <mj-raw>{{/each}}</mj-raw>
+        </mj-column>
+      </mj-section>
+      <mj-raw>{{#if isLoyalityProduct}}</mj-raw>
+      <mj-section padding="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Vernostný program: {{loyalityProduct.title}}
+          </mj-text>
+          <mj-divider border-width="1px" border-color="lightgrey" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>{{/if}}</mj-raw>
+      <mj-section padding="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Doprava:
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Spôsob dopravy: {{deliveryMethode}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Cena dopravy: {{deliveryPrice}} €
+          </mj-text>
+          <mj-divider border-width="1px" border-color="lightgrey" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column padding="0">
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+          >
+            Platba:
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Spôsob platby: {{paymentMethode}}
+          </mj-text>
+          <mj-text color="#777" padding-bottom="0" padding-top="10px">
+            Cena platby: {{paymentPrice}} €
+          </mj-text>
+          <mj-divider border-width="1px" border-color="lightgrey" />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column
+          border="solid white 20px"
+          padding-top="20px"
+          padding-bottom="20px"
+          background-color="#EEE"
+        >
+          <mj-text
+            container-background-color="#EEE"
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+            align="right"
+          >
+            Celkom spolu (bez DPH): {{totalPriceWithoutVat}} €
+          </mj-text>
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+            align="right"
+          >
+            DPH (20%): {{totalPriceVat}} €
+          </mj-text>
+          <mj-text
+            font-size="18px"
+            color="#777"
+            font-weight="600"
+            padding-bottom="10px"
+            align="right"
+          >
+            Celkom spolu (vrátane DPH): {{totalPrice}} €
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#777"
+          />
+          <mj-text
+            font-size="16px"
+            color="#777"
+            font-weight="40"
+            padding-bottom="10px"
+            align="center"
+          >
+            Ďakujeme za dôveru a tešíme sa na Váš ďalší nákup.
+          </mj-text>
+          <mj-text
+            font-size="16px"
+            color="#777"
+            font-weight="40"
+            padding-bottom="10px"
+            align="center"
+          >
+            Prajeme Vám príjemný deň.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
