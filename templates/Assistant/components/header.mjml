@@ -1,0 +1,24 @@
+<mj-section
+  text-align="center"
+  border-top="40px solid #E5E5E5"
+  background-color="#002E40"
+>
+  <mj-column>
+    <mj-image
+      align="left"
+      border="none"
+      padding="20px 20px"
+      src="{{ logo_src }}"
+      target="_blank"
+      title=""
+      width="196px"
+      alt="Logo"
+    ></mj-image>
+  </mj-column>
+  <mj-column
+    ><mj-text align="center" padding="0" padding-top="20px" color="white"
+      >Nezobrazil se vám e-mail správně? Klikněte zde.</mj-text
+    ></mj-column
+  >
+</mj-section>
+<mj-hero height="8px" css-class="header-background" />

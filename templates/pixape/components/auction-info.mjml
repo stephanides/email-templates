@@ -1,0 +1,31 @@
+<mj-text padding-bottom="0" font-weight="bold">Dražba:</mj-text>
+<mj-text>
+  <ul class="list">
+    <li class="item">
+      <span>Název aukce: {{ auction.title }}</span>
+    </li>
+    <li class="item">
+      <span>Začátek aukce: {{ auction.startDt|dateFormat }}</span>
+    </li>
+    <li class="item">
+      <span>Konec aukce: {{ auction.endDt|dateFormat }}</span>
+    </li>
+    <li class="item">
+      <span>Nejnižší podání: {{ auction.cautionDeposit|price }}</span>
+    </li>
+    <li class="item">
+      <span>Minimální příhoz: {{ auction.minimalBid|price }}</span>
+    </li>
+    <li class="item">
+      <span>Odhadní cena: {{ auction.estimatedPrice|price }}</span>
+    </li>
+    <li class="item">
+      <span
+        >Číslo dražby:
+        <a href="{{ auction|auctionPublicLink }} "
+          >{{ auction.number }}</a
+        ></span
+      >
+    </li>
+  </ul>
+</mj-text>

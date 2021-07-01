@@ -1,0 +1,158 @@
+<mjml>
+  <mj-head
+    ><mj-title>Mail</mj-title
+    ><mj-style inline="inline">
+      *{font-family:Arial !important; line-height: 1.6 !important; font-weight:
+      400;} strong{ font-weight: bold} .link{font-weight: bold;text-decoration: underline;color:
+      #8CC640 !important;}.list { padding-left: 20px} ul .item{ color: #8CC640; margin-top:
+      12px;} ul li span{color: #000;}.pointer td{cursor: pointer
+      !important;white-space: nowrap}.footer p{color: white; font-size: 14px; margin: 0;}.footer
+      h6{color: white;font-weight: bold; font-size: 16px; margin: 0;}.footer
+      image{width: 42px}.mobile{display: none;}.footer-link{color: white !important;}
+    </mj-style></mj-head
+  >
+  <mj-body width="600px">
+    <mj-wrapper
+      background-color="white"
+      padding="0px 20px"
+      padding-bottom="40px"
+    >
+      <mj-section >
+        <mj-column>
+          <mj-image
+            align="left"
+            border="none"
+            padding="10px 25px"
+            padding-left="0" padding-right="0"
+            src="https://storage.googleapis.com/pixape22446/logo-1.jpg"
+            target="_blank"
+            title=""
+            width="240px"
+            alt="Logo"
+          ></mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0" >
+        <mj-column padding-top="0">
+          <mj-text font-size="14px" padding-top="0" padding-left="0" padding-right="0">Hezký den,</mj-text>
+          <mj-text font-size="14px" padding-left="0" padding-right="0"
+            >jsou <strong>volby</strong>, které ovlivní <strong>dobu, cenu, kvalitu</strong> nebo <strong>úspěšné dokončení</strong> samotného <strong>vývoje</strong> aplikace či software. Patří mezi ně i volba mezi agenturou a freelancerem. Více si o této volbě přečtete v našem článku
+            <a
+              class="link"
+              href="https://pixape.cz/clanek/freelancer-vs-agentura?utm_source=newsletter&utm_medium=email&utm_campaign=automation_series_art4&utm_content=text_clanek_freelancer_vs_agentura"
+              >Freelancer vs. agentura: koho najmout na vývoj mobilních aplikací?</a
+            >.</mj-text
+          >
+          <mj-text padding-left="0" padding-right="0" padding-top="20px" font-size="18px" font-weight="700"
+            >Co se v článku dozvíte?</mj-text
+          >
+          <mj-text padding-top="0" padding-left="0" padding-right="0">
+            <ul class="list">
+              <li class="item">
+                <span
+                  >Jak probíhá vývoj aplikace nebo software?</span
+                >
+              </li>
+              <li class="item">
+                <span>Výhody spolupráce s agenturou.</span>
+              </li>
+              <li class="item">
+                <span>Výhody spolupráce s freelancerem.</span>
+              </li>
+              <li class="item">
+                <span>Kdy zvolit agenturu a kdy freelancera?</span>
+              </li>
+            </ul>
+          </mj-text>
+          <mj-text padding-top="20px" font-size="18px" font-weight="700" padding-left="0" padding-right="0"
+            >Chcete zjistit, jak může cenu nebo úspěšné dokončení vývoje ovlivnit volba mezi agenturou a freelancerem?</mj-text
+          >
+          <mj-button
+            align="left"
+            background-color="#8CC640"
+            padding-left="0" padding-right="0"
+            color="#FFF"
+            font-size="16px"
+            font-weight="bold"
+            border-radius="5px"
+            css-class="pointer"
+            text-align="center"
+            inner-padding="8px 32px"
+            href="https://pixape.cz/clanek/freelancer-vs-agentura?utm_source=newsletter&utm_medium=email&utm_campaign=automation_series_art4&utm_content=button_clanek_freelancer_vs_agentura"
+            >Ano, chci</mj-button
+          >
+          <mj-text padding-top="20px" padding-left="0" padding-right="0">Příští týden se dozvíte, jaké 4 výhody plynou ze spolupráce s námi.</mj-text>
+          <mj-text font-size="14px" padding-top="40px" padding-left="0" padding-right="0"
+            >S přáním pohodového vývoje aplikací</mj-text
+          >
+          <mj-table padding-left="0" padding-right="0">
+            <tr>
+              <td style="width: 170px">
+                <p style="font-weight: bold; font-size: 16px; margin: 0">
+                  Radek Semančík
+                </p>
+                <p style="font-size: 14px; margin: 0">
+                  CEO firmy Pixape s. r. o.
+                </p>
+              </td>
+              <td style="line-height: 1">
+                <img
+                width: "80"
+                height: "80"
+                style="border:0;display:block;outline:none;text-decoration:none;height:auto;line-height:1;"
+                  src="https://storage.googleapis.com/pixape22446/podpis-1.jpg"
+                />
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="10px 0px" background-color="#8CC640"
+          border-radius="4px">
+        <mj-column
+        >
+        <mj-text font-size='16px' font-weight="bold" color="white" padding-bottom="0">Pixape s. r. o.</mj-text>
+        <mj-text padding-top="4px"  font-size='14px' color="white" padding-top="0" padding-bottom="0">Korunní 108, Praha</mj-text>
+        <mj-text font-size='14px' color="white" padding-top="0" >148 00</mj-text>
+        </mj-column>
+        <mj-column
+        >
+        <mj-text font-size='16px' font-weight="bold" color="white" padding-bottom="0" css-class="footer-link"><a
+                    style="color: white !important; font-weight: bold"
+                    href="tel:+420777097796"
+                    class="footer-link"
+                    >+420 777 097 796</a
+                  ></mj-text>
+        <mj-text padding-top="4px"  font-size='14px' color="white" css-class="footer-link"><a class="footer-link" href="mailto:info@pixape.cz"
+                    >info@pixape.cz</a
+                  ></mj-text>
+         </mj-column>
+         <mj-column
+        >
+       <mj-image
+                    src="https://s3-eu-west-1.amazonaws.com/ecomail-assets/editor/social-icos/simplewhite/linkedin.png"
+                    href="https://www.linkedin.com/signup/cold-join"
+                    width="48px"
+                />
+         </mj-column>
+        </mj-column>
+      </mj-section>
+      <mj-section
+        ><mj-column>
+          <mj-text align="center"
+            ><a
+              href="*|UNSUB|*"
+              style="
+                color: #8cc640;
+                font-size: 14px;
+                cursor: pointer;
+                text-decoration: underline;
+              "
+              >Odhlásit se</a
+            ></mj-text
+          ></mj-column
+        ></mj-section
+      >
+    </mj-wrapper>
+  </mj-body>
+</mjml>

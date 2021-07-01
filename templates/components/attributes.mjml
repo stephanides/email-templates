@@ -1,4 +1,14 @@
 <mj-attributes>
-  <mj-text font-size="16px" color="#777" line-height="20px" />>
-  <mj-all font-family="Arial" />
+  <mj-text font-size="16px" color="#487688" line-height="32px" />
+  <mj-all font-family="'Roboto', sans-serif;" />
 </mj-attributes>
+<mj-style inline="inline">
+  .list { text-align: center; list-style-position: inside; padding-left: 0} ul
+  .blue{ color: #00aeef; margin-top: 12px;} ul .red{color: #FF0000; margin-top:
+  12px;} ul li span{color: #487688; top: '40px';} .link{ color: #00aeef;
+  text-decoration: underline} .button-link {background-color: #00aeef; color:
+  white; padding: 16px 32px; border-radius: 8px; box-shadow: 1px 12px 40px 0px
+  #00aeef82; cursor: pointer; text-decoration: none;white-space: nowrap}
+  .post-covid-text{ color: red; white-space: nowrap;} @media (max-width:480px) {
+  .text { padding-left: 0; padding-right: 0; } }
+</mj-style>

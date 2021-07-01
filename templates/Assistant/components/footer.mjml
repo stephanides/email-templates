@@ -1,0 +1,37 @@
+<mj-section padding-top="0" padding-bottom="0" background-color="white">
+  <mj-column>
+    <mj-divider
+      border-width="2px"
+      border-style="solid"
+      border-color="#DCDCDC"
+      padding-top="0"
+      padding-bottom="0"
+      padding-left="40px"
+      padding-right="40px"
+    />
+  </mj-column>
+</mj-section>
+<mj-section text-align="center" background-color="white" padding="20px">
+  <mj-column width="25%">
+    <mj-text font-weight="bold">Infolinka:</mj-text>
+    <mj-text padding-top="0" font-weight="bold"
+      ><a
+        style="color: #0085bb; text-decoration: none"
+        href="tel:+420 720 554 154"
+        >+420 720 554 154</a
+      ></mj-text
+    >
+  </mj-column>
+  <mj-column width="33%">
+    <mj-text font-weight="bold">E-mail:</mj-text>
+    <mj-text padding-top="0"
+      ><a style="color: black" href="mailto:info@asistentpodnikatele.cz"
+        >info@asistentpodnikatele.cz</a
+      ></mj-text
+    >
+  </mj-column>
+  <mj-column width="42%">
+    <mj-text font-weight="bold">© Copyright 2020 Assistent4Business</mj-text>
+    <mj-text padding-top="0" color="#A9A9A9">Všechna práva vyhrazena</mj-text>
+  </mj-column>
+</mj-section>

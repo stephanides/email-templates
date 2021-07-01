@@ -1,0 +1,249 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-text font-size="20px" color="#487688" line-height="32px" />
+      <mj-all font-family="'Roboto', sans-serif;" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .list { text-align: center; list-style-position: inside; padding-left: 0}
+      ul .blue{ color: #00aeef; margin-top: 12px;} ul .red{color: #FF0000;
+      margin-top: 12px;} ul li span{color: #487688; top: '40px';} .link{ color:
+      #00aeef; text-decoration: underline} .button-link {background-color:
+      #00aeef; color: white; padding: 16px 64px; border-radius: 8px; box-shadow:
+      1px 12px 40px 0px #00aeef82; cursor: pointer; text-decoration: none}
+      .post-covid-text{ color: red; white-space: nowrap;} @media
+      (max-width:480px) { .text { padding-left: 0; padding-right: 0; } }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#EEE" width="800px">
+    <mj-wrapper background-color="white" padding="0px 0px">
+      <mj-section background-color="white">
+        <mj-column>
+          <mj-image
+            align="center"
+            width="280px"
+            padding="0"
+            padding-top="20px"
+            src="https://kupelecks.sk/wp-content/uploads/2018/09/logo-big.png"
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="white">
+        <mj-column>
+          <mj-image
+            align="center"
+            padding="0"
+            src="https://kupelecks.sk/wp-content/uploads/2018/09/DObre-sa-tu.png"
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="0px">
+        <mj-column padding-bottom="0px">
+          <mj-text font-weight="bold" align="center">Dobrý deň,</mj-text>
+          <mj-text align="center" font-weight="normal" css-class="text">
+            radi by sme sa s vami podelili o novinky, ktoré prinieslo toto
+            obdobie. Vďaka zákonnému rozšírenie zoznamu indikácií na kúpeľnú
+            liečbu o problémy súvisiace s ochorením
+            <strong>Covid-19</strong> (post covidový syndróm), máme možnosť
+            spolu pomôcť množstvu ľudí.
+          </mj-text>
+          <mj-text font-weight="normal" padding-top="60px" align="center"
+            ><strong
+              >Touto cestou vám chceme predstaviť Post-Covid pobyt v našich
+              liečebných a klimatických kúpeľoch.</strong
+            >
+            Na vaše odporúčanie ho môžu získať ľudia, ktorí mali ťažší priebeh
+            ochorenia, prípadne boli na umelej pľúcnej ventilácii a 4 – 6
+            týždňov po prekonaní ochorenia pociťujú celú škálu zdravotných
+            následkov a nedokážu vykonávať bežné každodenné činnosti.</mj-text
+          >
+          <mj-image
+            align="center"
+            padding="0"
+            padding-top="36px"
+            width="86px"
+            src="https://kupelecks.sk/wp-content/uploads/2018/09/care.png"
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px 32px">
+        <mj-column background-color="#00aeef" border-radius="12px">
+          <mj-text align="center" color="white" font-size="18px" padding="20px">
+            Vaši pacienti dostanú u nás prvotriednu starostlivosť s
+            individuálnym plánom procedúr. Takýto pobyt navyše prepláca
+            poisťovňa.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text font-weight="bold" padding-top="30px" align="center"
+            >Pripravili sme aj špeciálny výber procedúr, ktoré pomôžuzmierniť
+            prejavy post covidového sndrómu:</mj-text
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="0">
+        <mj-column
+          ><mj-image
+            src="https://kupelecks.sk/wp-content/uploads/2018/09/1.png"
+        /></mj-column>
+        <mj-column
+          ><mj-image
+            src="https://kupelecks.sk/wp-content/uploads/2018/09/2.png"
+        /></mj-column>
+      </mj-section>
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text font-weight="bold">
+            <ul class="list">
+              <li class="red"><span>respiračná fyzioterapia,</span></li>
+              <li class="blue">
+                <span>hygiena horných dýchacích ciest,</span>
+              </li>
+              <li class="red">
+                <span>oxygenoterapia s meraním saturácie kyslíka v krvi,</span>
+              </li>
+              <li class="blue">
+                <span>inhalácie liečivou vodou Sulinka a Vincentka,</span>
+              </li>
+              <li class="red">
+                <span>edukácia stoja, chôdze a dýchania,</span>
+              </li>
+              <li class="blue"><span>teploliečba,</span></li>
+              <li class="red">
+                <span
+                  >Pieniny Vertical Walking s fyzioterapeutom (rozdelenie podľa
+                  adaptácie na záťaž),</span
+                >
+              </li>
+              <li class="blue">
+                <span>klasická masáž: čiastočná alebo Blackroll terapia,</span>
+              </li>
+              <li class="red">
+                <span
+                  >skupinová psychoterapia (pre indikácie V/9, V/10 ako
+                  doplnková procedúra),</span
+                >
+              </li>
+              <li class="blue">
+                <span
+                  >individuálna psychoterapia (pre indikácie V/9, V/10 ako
+                  doplnková procedúra).</span
+                >
+              </li>
+              <li class="red">
+                <span>individuálna manuálna fyzioterapia (DOPLNKOVÉ),</span>
+              </li>
+              <li class="blue"><span>elektroliečba (DOPLNKOVÉ).</span></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text font-weight="normal" align="center"
+            >Všetky informácie vám radi zodpovieme telefonicky alebo online.
+            Kompletné informácie o Post-Covid pobyte nájdete tu</mj-text
+          >
+          <mj-text align="center" padding="0" font-weight="600"
+            ><a class="link" href="https://www.kupelecks.sk/post-covid-pobyt"
+              >www.kupelecks.sk/post-covid-pobyt</a
+            ></mj-text
+          >
+          <mj-text padding-top="84px" align="center"
+            ><a
+              class="button-link"
+              href="https://www.kupelecks.sk/post-covid-pobyt"
+              >Post-arajte sa</a
+            ></mj-text
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="32px">
+        <mj-column>
+          <mj-text font-weight="normal" align="center"
+            >O vás aj vašich pacientov sa tu dobre
+            <span class="post-covid-text"
+              ><strong>post</strong>-aráme!</span
+            ></mj-text
+          >
+          <mj-text font-weight="normal" align="center" padding-top="32px"
+            >Červený kláštor Smerdžonka</mj-text
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section
+        background-color="#edf7fd"
+        padding="0"
+        padding-top="64px"
+        padding-bottom="32px"
+      >
+        <mj-column>
+          <mj-image
+            align="left"
+            width="280px"
+            padding-left="32px"
+            padding="0"
+            padding-top="20px"
+            src="https://kupelecks.sk/wp-content/uploads/2018/09/logo-big.png"
+          />
+          <mj-text
+            font-weight="600"
+            font-size="16px"
+            padding-top="32px"
+            padding-bottom="0"
+            >Červený Kláštor 147</mj-text
+          >
+          <mj-text font-weight="600" font-size="16px" padding-top="0px"
+            >059 06 Červený Kláštor</mj-text
+          >
+          <mj-text
+            font-weight="600"
+            font-size="16px"
+            padding-top="16px"
+            padding-bottom="0"
+            >Tel: +421 914 338 825</mj-text
+          >
+          <mj-text font-weight="normal" font-size="16px" padding-top="0px"
+            >Email: prijem@kupelecks.sk</mj-text
+          >
+        </mj-column>
+        <mj-column>
+          <mj-text font-weight="bold" font-size="28px" padding-top="20px"
+            >Pridajte sa k nám!</mj-text
+          >
+          <mj-social
+            font-size="15px"
+            icon-size="56px"
+            mode="horizontal"
+            align="left"
+          >
+            <mj-social-element
+              name="facebook-noshare"
+              src="https://kupelecks.sk/wp-content/uploads/2018/09/FB.png"
+              href="https://www.facebook.com/KupeleCervenyKlastorSmerdzonka"
+              alt="Facebook"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="instagram"
+              src="https://kupelecks.sk/wp-content/uploads/2018/09/ig.png"
+              href="http://instagram.com/kupelecervenyklastorsmerdzonka"
+              alt="Instagram"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="youtube"
+              src="https://kupelecks.sk/wp-content/uploads/2018/09/ytb.png"
+              href="https://www.youtube.com/channel/UCagE9AfD69zG7IOU9SMVgyg"
+              alt="Youtube"
+            >
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

@@ -1,0 +1,77 @@
+<mj-section>
+  <mj-column>
+    <mj-divider border-width="1px" border-style="solid" border-color="#777" />
+    <mj-text font-weight="normal" align="center">
+      Ďakujeme za dôveru a tešíme sa na Váš ďalší nákup.
+    </mj-text>
+    <mj-text font-weight="normal" align="center">
+      Prajeme Vám príjemný deň.
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section
+  background-color="#edf7fd"
+  padding="0"
+  padding-top="32px"
+  padding-bottom="32px"
+  border-bottom="40px solid #EEE"
+>
+  <mj-column>
+    <mj-image
+      align="left"
+      width="280px"
+      padding-left="32px"
+      padding="0"
+      padding-top="20px"
+      src="https://kupelecks.sk/wp-content/uploads/2018/09/logo-big.png"
+    />
+    <mj-text
+      font-weight="600"
+      font-size="16px"
+      padding-top="32px"
+      padding-bottom="0"
+      >Červený Kláštor 147</mj-text
+    >
+    <mj-text font-weight="600" font-size="16px" padding-top="0px"
+      >059 06 Červený Kláštor</mj-text
+    >
+    <mj-text
+      font-weight="600"
+      font-size="16px"
+      padding-top="16px"
+      padding-bottom="0"
+      >Tel: +421 911 338 828</mj-text
+    >
+    <mj-text font-weight="normal" font-size="16px" padding-top="0px"
+      >Email: eshop@kupelecks.sk</mj-text
+    >
+  </mj-column>
+  <mj-column>
+    <mj-text font-weight="bold" font-size="28px" padding-top="20px"
+      >Pridajte sa k nám!</mj-text
+    >
+    <mj-social font-size="15px" icon-size="56px" mode="horizontal" align="left">
+      <mj-social-element
+        name="facebook-noshare"
+        src="https://kupelecks.sk/wp-content/uploads/2018/09/FB.png"
+        href="https://www.facebook.com/KupeleCervenyKlastorSmerdzonka"
+        alt="Facebook"
+      >
+      </mj-social-element>
+      <mj-social-element
+        name="instagram"
+        src="https://kupelecks.sk/wp-content/uploads/2018/09/ig.png"
+        href="http://instagram.com/kupelecervenyklastorsmerdzonka"
+        alt="Instagram"
+      >
+      </mj-social-element>
+      <mj-social-element
+        name="youtube"
+        src="https://kupelecks.sk/wp-content/uploads/2018/09/ytb.png"
+        href="https://www.youtube.com/channel/UCagE9AfD69zG7IOU9SMVgyg"
+        alt="Youtube"
+      >
+      </mj-social-element>
+    </mj-social>
+  </mj-column>
+</mj-section>

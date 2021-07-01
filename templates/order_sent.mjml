@@ -8,10 +8,20 @@
     <mj-wrapper background-color="white" padding="0px 0px">
       <mj-section>
         <mj-column>
-          <mj-text>Dobrý deň.</mj-text>
+          <mj-text>Dobrý deň pán/pani <strong>{{name}} {{surname}}</strong>,</mj-text>
+          <mj-raw>{{#if isPersonalTakeout}}</mj-raw>
           <mj-text>
-            Vaša objednávka {{orderId}} bola dnes odoslaná a odovzdaná
-            prepravnej spoločnosti. Prepravná spoločnosť Vám do e-mailu zašle
+            máme pre vás skvelú správu. Vaša objednávka {{orderId}} je <strong>pripravená</strong>.
+          </mj-text>
+          <mj-text
+            >Osobný odber je možný v Kúpeľnej reštaurácii, Červený Kláštor 12,
+            059 06 Červený Kláštor alebo v Cestovnej agentúre DJK Tour,
+            Popradská 6, 064 01 Stará Ľubovňa v čase Pondelok - Piatok: 9:00 -
+            18:00, Sobota: 10:00 - 12:00.</mj-text
+          >
+          <mj-raw>{{else}}</mj-raw>
+          <mj-text>
+            máme pre vás skvelú správu. Vaša objednávka {{orderId}} <strong>bola úspešne odovzdaná prepravnej spoločnosti</strong> a bude vám čoskoro doručená. Prepravná spoločnosť Vám do e-mailu zašle
             sledovacie číslo zásielky, ktoré je možné sledovať až po spracovaní
             balíka v depe prepravnej spoločnosti, čo je po 18:00 hod. v deň
             odoslania.
@@ -24,42 +34,18 @@
             určuje kuriér. Kuriér doručuje na adresu len raz denne a na adresu
             sa v daný deň už nevracia.</mj-text
           >
+          <mj-raw>{{/if}}</mj-raw>
+          
           <mj-text
             >Ak máte akékoľvek otázky týkajúce sa Vašej objednávky, prosím,
             kontaktujte nás na
-            <a href="mailto: eshop@kupelecks.sk">eshop@kupelecks.sk</a> alebo
-            telefonicky na +421 911 338 828 v čase Pondelok - Piatok: 08:00 -
+            <a class="link" href="mailto: eshop@kupelecks.sk">eshop@kupelecks.sk</a> alebo
+            telefonicky na <a class="link" href="tel:+421 911 338 828">+421 911 338 828</a> v čase Pondelok - Piatok: 08:00 -
             17:00.</mj-text
           >
         </mj-column>
       </mj-section>
-      <mj-section>
-        <mj-column>
-          <mj-divider
-            border-width="1px"
-            border-style="solid"
-            border-color="#777"
-          />
-          <mj-text
-            font-size="16px"
-            color="#777"
-            font-weight="40"
-            padding-bottom="10px"
-            align="center"
-          >
-            Ďakujeme za dôveru a tešíme sa na Váš ďalší nákup.
-          </mj-text>
-          <mj-text
-            font-size="16px"
-            color="#777"
-            font-weight="40"
-            padding-bottom="10px"
-            align="center"
-          >
-            Prajeme Vám príjemný deň.
-          </mj-text>
-        </mj-column>
-      </mj-section>
+      <mj-include path="./components/footer.mjml" />
     </mj-wrapper border-top="20px solid #EEE">
   </mj-body>
 </mjml>

@@ -1,0 +1,25 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../../../components/attributes.mjml" />
+    <mj-title>Mail</mj-title>
+  </mj-head>
+  <mj-body background-color="#E5E5E5" width="800px">
+    <mj-wrapper background-color="white" padding="0px 0px">
+      <mj-include path="../../../components/header.mjml" />
+      <mj-section padding="40px 40px 80px 40px">
+        <mj-column>
+          <mj-text>{{ salutation }} </mj-text>
+          <mj-text>{{ firstParagraph }}</mj-text>
+          <mj-include path="../../../components/auction-info.mjml" />
+          <mj-raw>{% if auction.auctionWinner == null %}</mj-raw>
+          <mj-text>Nikdo nevyhrál.</mj-text>
+          <mj-raw>{% else %}</mj-raw>
+          <mj-text>Vyhrál: {{ auction.auctionWinner.user.email }}</mj-text>
+          <mj-raw>{% endif %}</mj-raw>
+          <mj-text>{{ regards }} </br> {{ from }} </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="../../../components/footer.mjml" />
+  </mj-body>
+</mjml>

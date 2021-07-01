@@ -1,0 +1,7 @@
+<mj-section text-align="center">
+  <mj-column>
+    <mj-text color="#898989" align="center" font-size="12px"
+      >© Copyright 2020 exdražby | Všechna práva vyhrazena</mj-text
+    >
+  </mj-column>
+</mj-section>

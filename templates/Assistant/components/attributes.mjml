@@ -1,0 +1,10 @@
+<mj-breakpoint width="800px" />
+<mj-attributes>
+  <mj-text font-size="14px" color="#000" line-height="20px" />
+  <mj-all font-family="'Arial', sans-serif;" />
+</mj-attributes>
+<mj-style
+  >.heading{ color: 'black'; font-weight: bold;}.link-button{padding: 8px 25px;
+  color: black;border: 3px solid #3D8CBB; border-radius: 35px;}.big-highlight {
+  font-size: 20px; color: #62CEA3;}</mj-style
+>

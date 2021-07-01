@@ -1,0 +1,15 @@
+<mj-section text-align="center" border-top="40px solid #E5E5E5">
+  <mj-column>
+    <mj-image
+      align="left"
+      border="none"
+      padding="20px 50px"
+      src="https://exdrazby.cz/images/logo.png"
+      target="_blank"
+      title=""
+      width="240px"
+      alt="Logo"
+    ></mj-image>
+  </mj-column>
+</mj-section>
+<mj-hero height="8px" css-class="header-background" />

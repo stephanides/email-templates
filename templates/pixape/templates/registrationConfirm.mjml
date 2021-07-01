@@ -1,0 +1,21 @@
+<mjml>
+  <mj-head>
+    <mj-include path="../components/attributes.mjml" />
+    <mj-title>Mail</mj-title>
+  </mj-head>
+  <mj-body background-color="#E5E5E5" width="800px">
+    <mj-wrapper background-color="white" padding="0px 0px">
+      <mj-include path="../components/header.mjml" />
+      <mj-section padding="40px 40px 80px 40px">
+        <mj-column>
+          <mj-text>{{ salutation }} </mj-text>
+          <mj-text>{{ firstParagraph }}</mj-text>
+          <mj-text><strong>{{ email_text }}</strong> {{ user_email}}</mj-text>
+          <mj-text><strong>{{ email_password }}</strong> {{ user_password}}</mj-text>
+          <mj-text>{{ regards }} </br> {{ from }} </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="../components/footer.mjml" />
+  </mj-body>
+</mjml>
